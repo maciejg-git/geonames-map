@@ -1,0 +1,39 @@
+/* .icon-hover:hover { */
+/* 	background-color: red; */
+/* } */
+.icon-hover-translate:hover {
+	/* transform: translateY(-5px); */
+	/* border-bottom: 2px solid red; */
+	/* padding-bottom: 2px; */
+}
+.image-scale-down {
+	transform: scale(0.7);
+	transform-origin: top;
+}
+
+.mark-no-padding {
+	background-color: #faf4d1;
+}
+.pointer {
+  cursor: pointer;
+}
+.list-no-padding {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+.hidden {
+	visibility: hidden;
+}
+.menu-active {
+	background-color: #007bff;
+	color: #ffffff !important;
+	box-shadow:	0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.menu-active-grey {
+	background-color: #ededed;
+	font-weight: bold;
+}
+.context-text-muted {
+	color: #a6acb1 !important
+}
