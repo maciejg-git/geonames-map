@@ -1,4 +1,4 @@
-# geonames
+# geonamesMap
 
 Map application using ArcGIS and OpenstreetMap Map Servers.
 
