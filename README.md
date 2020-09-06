@@ -1,19 +1,5 @@
 # geonames
 
-## Project setup
-```
-npm install
-```
+Map application using ArcGIS and OpenstreetMap Map Servers.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Build with: Vue 2, Vuex, Leaflet, Turf.js, Bootstrap
