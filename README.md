@@ -1,5 +1,5 @@
-# geonamesMap
+# GeonamesMap
 
-Map application using ArcGIS and OpenStreetMap Map Servers.
+GeonamesMap is mapping application for ArcGIS and OpenStreetMap Map Servers.
 
-Build with: Vue 2, Vuex, Leaflet, Turf.js, Bootstrap
+Build with: Vue 2, Vuex, Leaflet, Turf.js and Bootstrap.
