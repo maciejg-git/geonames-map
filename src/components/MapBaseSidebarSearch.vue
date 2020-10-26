@@ -213,7 +213,7 @@ export default {
 					value: true
 				},
 			],
-			searchString: "cascade creek",
+			searchString: "",
 			filter: "",
 			activeItem: null,
 		}
