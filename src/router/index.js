@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MapBase from '../components/MapBase.vue'
-import About from '../components/About.vue'
 
 Vue.use(VueRouter)
 
@@ -11,14 +10,9 @@ const routes = [
     name: 'map',
     component: MapBase
   },
-  {
-    path: '/about',
-    name: 'about',
-    component: About
-  },
 	{ 
 		path: '/', 
-		redirect: '/geonames' 
+		redirect: '/map' 
 	}
 ]
 
