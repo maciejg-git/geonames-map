@@ -21,25 +21,25 @@
             type="button"
             class="btn btn-secondary mr-auto"
             data-dismiss="modal"
-						>
-          	Delete <i class="fas fa-trash"></i>
-					</button>
+            >
+            Delete <i class="fas fa-trash"></i>
+          </button>
           <button
             @click="cancel"
             type="button"
             class="btn btn-secondary"
             data-dismiss="modal"
-						>
-          	{{ buttonCancelLabel }}
-					</button>
+            >
+            {{ buttonCancelLabel }}
+          </button>
           <button 
-						@click="save" 
-						type="button" 
-						class="btn btn-primary"
+            @click="save" 
+            type="button" 
+            class="btn btn-primary"
             data-dismiss="modal"
-						>
-						{{ buttonAcceptLabel }}
-					</button>
+            >
+            {{ buttonAcceptLabel }}
+          </button>
         </div>
       </div>
     </div>
@@ -50,26 +50,26 @@
 export default {
   name: "VModal",
   components: {},
-	props: {
-		buttonAcceptLabel: String,
-		buttonCancelLabel: String,
-	},
+  props: {
+    buttonAcceptLabel: String,
+    buttonCancelLabel: String,
+  },
   data() {
     return {};
   },
   mounted: function() {},
   computed: {},
-	methods: {
-		save() {
-			this.$emit("button-save");
-		},
-		cancel() {
-			this.$emit("button-cancel");
-		},
-		remove() {
-			this.$emit("button-delete");
-		},
-	}
+  methods: {
+    save() {
+      this.$emit("button-save");
+    },
+    cancel() {
+      this.$emit("button-cancel");
+    },
+    remove() {
+      this.$emit("button-delete");
+    },
+  }
 };
 </script>
 

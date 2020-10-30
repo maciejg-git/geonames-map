@@ -5,7 +5,7 @@
         <ul class="nav nav-tabs card-header-tabs">
           <li v-for="(tab, index) in tabs" class="nav-item" :key="index">
             <a
-            	v-if="tab.$attrs.show"
+              v-if="tab.$attrs.show"
               @click.prevent="activePanel = index"
               class="nav-link"
               :class="{active: tab.active}"
@@ -35,7 +35,7 @@ export default {
     event: "input"
   },
   props: {
-		value: {
+    value: {
       type: Number,
       default: 0
     }
@@ -53,24 +53,24 @@ export default {
       this.$emit("input", newValue, oldValue);
     },
     value: function(newValue, oldValue) {
-    	this.activePanel = newValue;
+      this.activePanel = newValue;
     }
   },
   mounted: function() {},
   created: function() {
-		this.$on("addtab", (tab) => {
+    this.$on("addtab", (tab) => {
       this.tabs.push(tab);
       this.tabs[0].active = true;
     })
-		this.$on("deletetab", (tab) => {
-			let index = this.tabs.indexOf(tab);
-			if (index !== -1) {
-				this.tabs.splice(index, 1);
-			}
+    this.$on("deletetab", (tab) => {
+      let index = this.tabs.indexOf(tab);
+      if (index !== -1) {
+        this.tabs.splice(index, 1);
+      }
     })
   },
   computed: {},
-	methods: {},
+  methods: {},
 };
 </script>
 

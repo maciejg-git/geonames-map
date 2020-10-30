@@ -10,10 +10,10 @@ const routes = [
     name: 'map',
     component: MapBase
   },
-	{ 
-		path: '/', 
-		redirect: '/map' 
-	}
+  { 
+    path: '/', 
+    redirect: '/map' 
+  }
 ]
 
 const router = new VueRouter({
