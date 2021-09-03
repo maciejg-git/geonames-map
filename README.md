@@ -2,7 +2,7 @@
 
 GeonamesMap is mapping application for ArcGIS and OpenStreetMap Map Servers.
 
-Build with: Vue 2, Vuex, Leaflet, Turf.js and Bootstrap.
+Build with: Vue 2, Vuex, Leaflet (Javascript library for interactive maps), Turf.js (Advanced geospatial analysis library) and Bootstrap.
 
 Features:
 * 11 maps from various providers including sattelite maps
