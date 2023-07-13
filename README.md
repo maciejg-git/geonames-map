@@ -1,5 +1,7 @@
 # GeonamesMap
 
+https://geonames-map.netlify.app
+
 GeonamesMap is mapping application for ArcGIS and OpenStreetMap Map Servers.
 
 Build with: Vue 2, Vuex, Leaflet (Javascript library for interactive maps), Turf.js (Advanced geospatial analysis library) and Bootstrap.
@@ -13,5 +15,3 @@ Features:
 * filtering list of marks and search results
 * all user data is stored locally, no need to login
 * all user data can be exported or imported from JSON file
-
-https://geonames-map.netlify.app
